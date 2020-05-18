@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dialogflow/dialogflow_v2.dart' as dialogFlow;
 
 
-//void main() => runApp(new MyApp());
+void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -39,8 +39,8 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
   }
 
   init() async  {
-      dialogFlow.AuthGoogle authGoogle = await dialogFlow.AuthGoogle(fileJson:"assets/hr-agent-qrejxl-d60be659d185.json").build();
-      dialogflow = dialogFlow.Dialogflow(authGoogle: authGoogle);
+        dialogFlow.AuthGoogle authGoogle = await dialogFlow.AuthGoogle(fileJson:"assets/hr-agent-qrejxl-d60be659d185.json").build();
+        dialogflow = dialogFlow.Dialogflow(authGoogle: authGoogle);
       //se non contiene messaggi faccio una breve introduzione..
       botResponse("Chi sei?");
   }
@@ -77,30 +77,6 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
 
   void botResponse(query) async {
     _textController.clear();
-    
-    /*
-    dialogFlow.AuthGoogle authGoogle = await dialogFlow.AuthGoogle(fileJson: "assets/hr-agent-qrejxl-d60be659d185.json").build();
-    dialogFlow.Dialogflow dialogflow = dialogFlow.Dialogflow(authGoogle: authGoogle);    
-   //var response = await dialogflow.detectIntentFromText(query, dialogFlow.Language.italian );
- 
-    dialogFlow.DetectIntentResponse response = await dialogflow.detectIntent(
-      dialogFlow.DetectIntentRequest(
-        queryInput: dialogFlow.QueryInput(
-          text: dialogFlow.TextInput(
-            text: query,
-            languageCode: dialogFlow.Language.italian,
-          ),
-        ),
-        queryParams: dialogFlow.QueryParameters(
-          resetContexts: true,
-        ),
-      ),
-    );
-
-  String responceBot = response.queryResult.fulfillmentText;
-  //allmessage
-  // String responceBot = response.queryResult.fulfillmentMessages;
-  */
 
     dialogFlow.AIResponse response = await dialogflow.detectIntent(query);
     print(response.getMessage());
