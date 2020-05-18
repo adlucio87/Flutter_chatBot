@@ -1,6 +1,6 @@
-# Flatter Chatbot
+# Flutter Chatbot
 
-A new Flutter project.
+A Flutter Chatbot example
 
 ## Getting Started
 
