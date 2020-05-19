@@ -5,7 +5,7 @@ A Flutter Chatbot example
 # Screen
 
 <div align="center">
-    <img src="/Images/screen1.png" width="250px"</img> 
+    <img src="https://blog.luciosoft.it/coding/quando_flutter_incontra_dialogflow_nasce_un_chatbot_multi_piattaforma/images/16XOT7i3P2Dl18n1GAGoMhd1jNoZqGOg3tY5TrMSuH4U_1.png" width="250px"></img> 
 </div>
 
 ## Getting Started
