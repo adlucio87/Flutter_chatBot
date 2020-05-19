@@ -2,6 +2,12 @@
 
 A Flutter Chatbot example
 
+# Screen
+
+<div align="center">
+    <img src="/Images/screen1.png" width="250px"</img> 
+</div>
+
 ## Getting Started
 
 This project is a sample implamentation of a chatbot using DialogFlow as backend service.
