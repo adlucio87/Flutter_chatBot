@@ -4,13 +4,11 @@ A Flutter Chatbot example
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a sample implamentation of a chatbot using DialogFlow as backend service.
 
-A few resources to get you started if this is your first Flutter project:
+A few resources for getting starting and understend code:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [when flutter meat dialogflow born a multi platform chatbot](https://blog.luciosoft.it/coding/when_flutter_meat_dialogflow_born_a_multi_platform_chatbot/)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+But also in Italian Lenguage and Flutter lengage progeamming:
+- [quando flutter incontra dialogflow nasce un chatbot multi piattaforma](https://blog.luciosoft.it/coding/quando_flutter_incontra_dialogflow_nasce_un_chatbot_multi_piattaforma/)
